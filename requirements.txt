@@ -1,0 +1,16 @@
+ultralytics           # For YOLOv8/YOLOv11 detection
+opencv-python         # For video/frame processing
+numpy                 # For numerical operations
+ipykernel             # For running Jupyter notebooks
+matplotlib            # For displaying frames in notebook
+torch                 # Required backend for YOLOv models
+torchvision           # PyTorch vision utilities
+scipy                 # For advanced math, not mandatory yet
+pandas                # For logging speed/time data in future
+tqdm                  # For showing progress bars during frame processing
+pytube               # For downloading YouTube videos
+moviepy              # For video editing and processing
+termcolor            # For colored console output
+seaborn              # For advanced data visualization (optional)
+ipywidgets           # For interactive widgets in Jupyter (optional)
+notebook             # For Jupyter notebook support

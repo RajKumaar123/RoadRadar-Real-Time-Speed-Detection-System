@@ -192,3 +192,30 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore everything in input/ and output/ except .gitkeep and required CSVs
+input/*
+!input/.gitkeep
+
+output/*
+!output/speed_log.csv
+!output/speed_alert_log.csv
+!output/violation_summary.csv
+!output/.gitkeep
+!output/alerts/.gitkeep
+
+# Ignore video files and model weights
+*.mp4
+*.avi
+*.mov
+*.pt
+
+# Jupyter, Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pkl
+
+# Virtual environment
+venv/
+.env
